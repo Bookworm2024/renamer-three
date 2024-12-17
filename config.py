@@ -77,9 +77,9 @@ class rkn(object):
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
 ├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/infohub_updates>InfoHub Updates</a>
 ├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/infohubsupport_robot>InfoHub Support</a>
-├📕 Lɪʙʀᴀʀy : {}
-├✏️ Lᴀɴɢᴜᴀɢᴇ: {}
-├💾 Dᴀᴛᴀ Bᴀꜱᴇ: {}
+├📕 Lɪʙʀᴀʀy : <a href=https://t.me/Bookslibraryofficial>Pages & Voices</a>
+├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org/>Python 3</a>
+├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://www.mongodb.com/>Mongo DB</a>
 ├📊 ᴠᴇʀsɪᴏɴ: <a href=https://t.me/infohub_updates>{}</a></b>     
 ╰───────────────⍟ """
 
