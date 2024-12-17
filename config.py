@@ -46,7 +46,7 @@ class Config(object):
     DB_URL = os.environ.get("DB_URL","mongodb+srv://infohubstore06:RUQbKf1YWc42rOIf@maamthree.csbu5.mongodb.net/?retryWrites=true&w=majority&appName=maamthree")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/8dY.png")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/8dJ.png")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6011680723 5178714818').split()]
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002495227151"))
 
