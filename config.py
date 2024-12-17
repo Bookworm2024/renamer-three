@@ -34,30 +34,30 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "21145186")
+    API_HASH = os.environ.get("API_HASH", "daa53f4216112ad22b8a8f6299936a46")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7681830527:AAHIy7NeWz06sK6EeBLPxogBCLR1AGFvX0c") 
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","maamthree")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://infohubstore06:RUQbKf1YWc42rOIf@maamthree.csbu5.mongodb.net/?retryWrites=true&w=majority&appName=maamthree")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/kXJ.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6011680723 5178714818').split()]
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002495227151"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
     
     #vforce subs
     try:
-        FORCE_SUB = int(os.environ.get("FORCE_SUB", "")) 
+        FORCE_SUB = int(os.environ.get("FORCE_SUB", "-1002123546604")) 
     except:
-        FORCE_SUB = os.environ.get("FORCE_SUB", "Digital_Botz")
+        FORCE_SUB = os.environ.get("FORCE_SUB", "Bookslibraryofficial")
         
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
