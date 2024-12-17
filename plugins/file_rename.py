@@ -52,7 +52,7 @@ import os, time, asyncio
 
 
 UPLOAD_TEXT = """Uploading Started...."""
-DOWNLOAD_TEXT = """Download Started..."""
+DOWNLOAD_TEXT = """Downloading Started..."""
 
 app = Client("4gb_FileRenameBot", api_id=Config.API_ID, api_hash=Config.API_HASH, session_string=Config.STRING_SESSION)
    
@@ -72,7 +72,7 @@ async def rename_start(client, message):
     used = user_data.get('used_limit', 0)
     remain = int(limit) - int(used)
     if remain < int(rkn_file.file_size):
-        return await message.reply_text(f"100% Of Daily Upload Limit {humanbytes(limit)}.\n\n Media Size: {humanbytes(file.file_size)}\n Your Used Daily Limit {humanbytes(used)}\n\nYou have only **{humanbytes(remain)}** Data.\nPlease, Buy Premium Plan s.", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🪪 Uᴘɢʀᴀᴅᴇ", callback_data="plans")]]))
+        return await message.reply_text(f"100% ᴏꜰ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ ʀᴇᴀᴄʜᴇᴅ {humanbytes(limit)}.\n\n〄 ᴍᴇᴅɪᴀ ꜱɪᴢᴇ: {humanbytes(file.file_size)}\n〄 ʏᴏᴜ ᴜꜱᴇᴅ {humanbytes(used)}\n\n⚠️ ʏᴏᴜ ʜᴀᴠᴇ ᴏɴʟʏ **{humanbytes(remain)}** ᴅᴀᴛᴀ ʟᴇꜰᴛ.\n\nᴘʟᴇᴀꜱᴇ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ ᴛᴏ ɪɴᴄʀᴇᴀꜱᴇ ᴛʜᴇ ʟɪᴍɪᴛ. ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ - /plans", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🪪 Uᴘɢʀᴀᴅᴇ", callback_data="plans")]]))
          
 	    
     if await digital_botz.has_premium_access(user_id):
@@ -82,7 +82,7 @@ async def rename_start(client, message):
 
         try:
             await message.reply_text(
-            text=f"**__ᴍᴇᴅɪᴀ ɪɴꜰᴏ\n\n◈ ᴏʟᴅ ꜰɪʟᴇ ɴᴀᴍᴇ: `{filename}`\n\n◈ ᴇxᴛᴇɴꜱɪᴏɴ: `{extension_type.upper()}`\n◈ ꜰɪʟᴇ ꜱɪᴢᴇ: `{filesize}`\n◈ ᴍɪᴍᴇ ᴛʏᴇᴩ: `{mime_type}`\n◈ ᴅᴄ ɪᴅ: `{dcid}`\n\nᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ ᴀɴᴅ ʀᴇᴘʟʏ ᴛʜɪs ᴍᴇssᴀɢᴇ....__**",
+            text=f"**__ᴍᴇᴅɪᴀ ɪɴꜰᴏ\n\n◈ ᴏʟᴅ ꜰɪʟᴇ ɴᴀᴍᴇ: `{filename}`\n\n◈ ᴇxᴛᴇɴꜱɪᴏɴ: `{extension_type.upper()}`\n◈ ꜰɪʟᴇ ꜱɪᴢᴇ: `{filesize}`\n◈ ᴍɪᴍᴇ ᴛʏᴇᴩ: `{mime_type}`\n◈ ᴅᴄ ɪᴅ: `{dcid}`\n\nᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ (ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴇxᴛᴇɴꜱɪᴏɴ) ᴀɴᴅ ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴍᴇssᴀɢᴇ__**",
 	    reply_to_message_id=message.id,  
 	    reply_markup=ForceReply(True)
         )       
@@ -90,7 +90,7 @@ async def rename_start(client, message):
         except FloodWait as e:
             await sleep(e.value)
             await message.reply_text(
-            text=f"**__ᴍᴇᴅɪᴀ ɪɴꜰᴏ\n\n◈ ᴏʟᴅ ꜰɪʟᴇ ɴᴀᴍᴇ: `{filename}`\n\n◈ ᴇxᴛᴇɴꜱɪᴏɴ: `{extension_type.upper()}`\n◈ ꜰɪʟᴇ ꜱɪᴢᴇ: `{filesize}`\n◈ ᴍɪᴍᴇ ᴛʏᴇᴩ: `{mime_type}`\n◈ ᴅᴄ ɪᴅ: `{dcid}`\n\nᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ ᴀɴᴅ ʀᴇᴘʟʏ ᴛʜɪs ᴍᴇssᴀɢᴇ....__**",
+            text=f"**__ᴍᴇᴅɪᴀ ɪɴꜰᴏ\n\n◈ ᴏʟᴅ ꜰɪʟᴇ ɴᴀᴍᴇ: `{filename}`\n\n◈ ᴇxᴛᴇɴꜱɪᴏɴ: `{extension_type.upper()}`\n◈ ꜰɪʟᴇ ꜱɪᴢᴇ: `{filesize}`\n◈ ᴍɪᴍᴇ ᴛʏᴇᴩ: `{mime_type}`\n◈ ᴅᴄ ɪᴅ: `{dcid}`\n\nᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ (ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴇxᴛᴇɴꜱɪᴏɴ) ᴀɴᴅ ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴍᴇssᴀɢᴇ__**",
 	    reply_to_message_id=message.id,  
 	    reply_markup=ForceReply(True)
         )
@@ -102,7 +102,7 @@ async def rename_start(client, message):
 
         try:
             await message.reply_text(
-            text=f"**__ᴍᴇᴅɪᴀ ɪɴꜰᴏ\n\n◈ ᴏʟᴅ ꜰɪʟᴇ ɴᴀᴍᴇ: `{filename}`\n\n◈ ᴇxᴛᴇɴꜱɪᴏɴ: `{extension_type.upper()}`\n◈ ꜰɪʟᴇ ꜱɪᴢᴇ: `{filesize}`\n◈ ᴍɪᴍᴇ ᴛʏᴇᴩ: `{mime_type}`\n◈ ᴅᴄ ɪᴅ: `{dcid}`\n\nᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ ᴀɴᴅ ʀᴇᴘʟʏ ᴛʜɪs ᴍᴇssᴀɢᴇ....__**",
+            text=f"**__ᴍᴇᴅɪᴀ ɪɴꜰᴏ\n\n◈ ᴏʟᴅ ꜰɪʟᴇ ɴᴀᴍᴇ: `{filename}`\n\n◈ ᴇxᴛᴇɴꜱɪᴏɴ: `{extension_type.upper()}`\n◈ ꜰɪʟᴇ ꜱɪᴢᴇ: `{filesize}`\n◈ ᴍɪᴍᴇ ᴛʏᴇᴩ: `{mime_type}`\n◈ ᴅᴄ ɪᴅ: `{dcid}`\n\nᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ (ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴇxᴛᴇɴꜱɪᴏɴ) ᴀɴᴅ ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴍᴇssᴀɢᴇ__**",
 	    reply_to_message_id=message.id,  
 	    reply_markup=ForceReply(True)
         )       
@@ -110,7 +110,7 @@ async def rename_start(client, message):
         except FloodWait as e:
             await sleep(e.value)
             await message.reply_text(
-            text=f"**__ᴍᴇᴅɪᴀ ɪɴꜰᴏ\n\n◈ ᴏʟᴅ ꜰɪʟᴇ ɴᴀᴍᴇ: `{filename}`\n\n◈ ᴇxᴛᴇɴꜱɪᴏɴ: `{extension_type.upper()}`\n◈ ꜰɪʟᴇ ꜱɪᴢᴇ: `{filesize}`\n◈ ᴍɪᴍᴇ ᴛʏᴇᴩ: `{mime_type}`\n◈ ᴅᴄ ɪᴅ: `{dcid}`\n\nᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ ᴀɴᴅ ʀᴇᴘʟʏ ᴛʜɪs ᴍᴇssᴀɢᴇ....__**",
+            text=f"**__ᴍᴇᴅɪᴀ ɪɴꜰᴏ\n\n◈ ᴏʟᴅ ꜰɪʟᴇ ɴᴀᴍᴇ: `{filename}`\n\n◈ ᴇxᴛᴇɴꜱɪᴏɴ: `{extension_type.upper()}`\n◈ ꜰɪʟᴇ ꜱɪᴢᴇ: `{filesize}`\n◈ ᴍɪᴍᴇ ᴛʏᴇᴩ: `{mime_type}`\n◈ ᴅᴄ ɪᴅ: `{dcid}`\n\nᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ ᴡɪᴛʜ ᴇxᴛᴇɴsɪᴏɴ (ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʜᴇ ᴇxᴛᴇɴꜱɪᴏɴ) ᴀɴᴅ ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴍᴇssᴀɢᴇ__**",
 	    reply_to_message_id=message.id,  
 	    reply_markup=ForceReply(True)
         )
@@ -149,7 +149,7 @@ async def refunc(client, message):
 
 @Client.on_callback_query(filters.regex("upload"))
 async def doc(bot, update):
-    rkn_processing = await update.message.edit("`Processing...`")
+    rkn_processing = await update.message.edit("`⌛ Processing...`")
 	
     # Creating Directory for Metadata
     if not os.path.isdir("Metadata"):
@@ -166,7 +166,7 @@ async def doc(bot, update):
         suffix = await digital_botz.get_suffix(user_id)
         new_filename = add_prefix_suffix(new_filename_, prefix, suffix)
     except Exception as e:
-        return await rkn_processing.edit(f"⚠️ Something went wrong can't able to set Prefix or Suffix ☹️ \n\n❄️ Contact My Creator -> @RknDeveloperr\nError: {e}")
+        return await rkn_processing.edit(f"⚠️ ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴀꜱ ɪ'ᴍ ᴜɴᴀʙʟᴇ ᴛᴏ ꜱᴇᴛ ᴜᴘ ᴘʀᴇꜰɪx ᴏʀ ꜱᴜꜰꜰɪx. ᴘʟᴇᴀꜱᴇ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ ☹️ \n\n❄️ ɪꜰ ᴛʜᴇ ɪꜱꜱᴜᴇ ᴘᴇʀꜱɪꜱᴛꜱ, ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ꜱᴜᴘᴘᴏʀᴛ ʜᴇʀᴇ @infohubsupport_robot\nError: {e}")
 
     # msg file location 
     file = update.message.reply_to_message
@@ -181,7 +181,7 @@ async def doc(bot, update):
     limit = user_data.get('uploadlimit', 0)
     used = user_data.get('used_limit', 0)
 
-    await rkn_processing.edit("`Try To Download....`")
+    await rkn_processing.edit("`⌛ ᴛʀʏɪɴɢ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ...`")
     await digital_botz.set_used_limit(user_id, media.file_size)
     total_used = int(used) + int(media.file_size)
     await digital_botz.set_used_limit(user_id, total_used)
@@ -208,9 +208,9 @@ async def doc(bot, update):
                     return await rkn_processing.edit(str(er) + "\n\n**Error**")
             except BaseException:
                 pass
-        await rkn_processing.edit("**Metadata added to the file successfully ✅**\n\n**Tʀyɪɴɢ Tᴏ Uᴩʟᴏᴀᴅɪɴɢ....**")
+        await rkn_processing.edit("**Metadata added to the file successfully ✅**\n\n**⌛ Tʀyɪɴɢ Tᴏ Uᴩʟᴏᴀᴅ....**")
     else:
-        await rkn_processing.edit("`Try To Uploading....`")
+        await rkn_processing.edit("`⌛ ᴛʀʏɪɴɢ ᴛᴏ ᴜᴘʟᴏᴀᴅ...`")
 	    
     duration = 0
     try:
@@ -337,7 +337,7 @@ async def doc(bot, update):
 # please give credit 🙏🥲
 		    
     await remove_path(ph_path, file_path, dl_path, metadata_path)
-    return await rkn_processing.edit("Uploaded Successfully....")
+    return await rkn_processing.edit("✅ ᴜᴘʟᴏᴀᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ")
     
 #@RknDeveloper
 #✅ Team-RknDeveloper
