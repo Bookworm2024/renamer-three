@@ -46,7 +46,7 @@ class Config(object):
     DB_URL = os.environ.get("DB_URL","mongodb+srv://infohubstore06:RUQbKf1YWc42rOIf@maamthree.csbu5.mongodb.net/?retryWrites=true&w=majority&appName=maamthree")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/kXJ.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/8dY.png")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6011680723 5178714818').split()]
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002495227151"))
 
@@ -69,9 +69,10 @@ class rkn(object):
 
 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ʀᴇɴᴀᴍᴇ ᴀɴᴅ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ʙᴏᴛ
 ᴜꜱɪɴɢ ᴍᴇ, ʏᴏᴜ ᴄᴀɴ ᴀʟꜱᴏ ᴄᴏɴᴠᴇʀᴛ ᴀ ꜰɪʟᴇ ᴛᴏ ᴀ ᴠɪᴅᴇᴏ ᴏʀ ᴀ ᴠɪᴅᴇᴏ ᴛᴏ ᴀ ꜰɪʟᴇ 
+
 ɢᴇᴛ, ꜱᴇᴛ, ɢᴏ! 🚀
 
-<blockquote>ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @infohub_updates 💞</blockquote></b>"""
+<blockquote>ɪ ᴀᴍ ᴄʜᴀʀɢᴇᴅ ʙʏ : @infohub_updates 💞</blockquote></b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
@@ -84,24 +85,35 @@ class rkn(object):
 ╰───────────────⍟ """
 
     HELP_TXT = """
-<b>•></b> /start Tʜᴇ Bᴏᴛ.
+<b>•></b> ᴛᴏ ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ, ꜱᴇɴᴅ /start
 
-✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
-<b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ ɴᴀᴍᴇ \nAɴᴅ ꜱᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/infohubsupport_robot>𝑺𝑼𝑷𝑷𝑶𝑹𝑻</a>
+✏️ <b><u>ʜᴏᴡ ᴛᴏ ʀᴇɴᴀᴍᴇ ᴀɴʏ ꜰɪʟᴇ?</u></b>
+
+<b>•></b> ꜱᴇɴᴅ ᴀɴʏ ꜰɪʟᴇ ᴀɴᴅ ᴛʏᴘᴇ ᴛʜᴇ ɴᴇᴡ ꜰɪʟᴇ ɴᴀᴍᴇ\n<b>•></b>ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ [ document, video, audio ]\n\n⚠️ᴘ.ꜱ. ᴛʜᴇ ꜰɪʟᴇ ᴄᴏɴᴠᴇʀꜱɪᴏɴ ꜱʏꜱᴛᴇᴍ (ꜰɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴏʀ ᴠɪᴅᴇᴏ ᴛᴏ ꜰɪʟᴇ) ᴍᴀʏ ɴᴏᴛ ᴡᴏʀᴋ 24x7 ᴀꜱ ɪᴛ ʜᴀꜱ ᴄᴇʀᴛᴀɪɴ ʀᴇꜱᴛʀɪᴄᴛɪᴏɴꜱ ꜱᴇᴛ ᴜᴘ ʙʏ ᴛᴇʟᴇɢʀᴀᴍ ɪᴛꜱᴇʟꜰ!.           
+
+ℹ️ ꜰᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ Qᴜᴇʀʏ, ᴀꜱꜱɪꜱᴛᴀɴᴄᴇ, ᴄᴏɴᴛᴀᴄᴛ - <a href=https://t.me/infohubsupport_robot>ɪɴꜰᴏʜᴜʙ ꜱᴜᴘᴘᴏʀᴛ</a>
 """
 
     UPGRADE= """
-•⪼ ★𝘗𝘭𝘢𝘯𝘴     -    ⏳𝘋𝘢𝘵𝘦 -  💸𝘗𝘳𝘪𝘤𝘦 - limit 
-•⪼ 🏆𝘗ro -    1𝘮𝘰𝘯𝘵𝘩 -   179 - 100gb
-•⪼ 💎 Ultra Pro  -   1𝘮𝘰𝘯𝘵𝘩 -   199 - 1000gb
+★ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ ᴀʀᴇ - 
 
-- 𝘋𝘪𝘴𝘤𝘰𝘶𝘯𝘵 𝘈𝘭𝘭 𝘗𝘭𝘢𝘯 𝘙𝘴.9
+•⪼ 🏆 ᴘʀᴏ :
+ᴅᴜʀᴀᴛɪᴏɴ - 1 month
+ᴘʀɪᴄᴇ - 90 INR
+Qᴜᴏᴛᴀ - 100 GB
+
+•⪼ 💎 ᴜʟᴛʀᴀ-ᴘʀᴏ:
+ᴅᴜʀᴀᴛɪᴏɴ - 1 month
+ᴘʀɪᴄᴇ - 165 INR
+Qᴜᴏᴛᴀ - 1000 GB
+
+💸 9% ᴅɪꜱᴄᴏᴜɴᴛ ᴏɴ ᴀʟʟ ᴘʟᴀɴꜱ ꜰᴏʀ ꜰɪʀꜱᴛ ᴛɪᴍᴇʀꜱ.
     """
     THUMBNAIL = """
 🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ</u></b>
 
-<b>•></b> Sᴇɴᴅ Aɴy Pʜᴏᴛᴏ Tᴏ Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟy Sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
+<b>•></b> ꜱᴇɴᴅ ᴀɴʏ ᴘɪᴄᴛᴜʀᴇ ᴛᴏ ꜱᴇᴛ ᴛʜᴇ ᴛʜᴜᴍʙɴᴀɪʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ.
+
 <b>•></b> /del_thumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Oʟᴅ ᴛʜᴜᴍʙɴᴀɪʟ.
 <b>•></b> /view_thumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
 """
@@ -112,7 +124,8 @@ class rkn(object):
 <b>•></b> /see_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
 <b>•></b> /del_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
 
-Exᴀᴍᴩʟᴇ:- `/set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
+Exᴀᴍᴩʟᴇ- 
+`/set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 💾 Sɪᴢᴇ: {filesize}
 ⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}`
 """
@@ -169,11 +182,12 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @infohub_updates`
     #⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @RknDeveloper🙏🥲
     # ᴡʜᴏᴇᴠᴇʀ ɪs ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜɪs ʀᴇᴘᴏ ɪs ᴡᴀʀɴᴇᴅ ⚠️ ᴅᴏ ɴᴏᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛs ɢɪᴠᴇɴ ɪɴ ᴛʜɪs ʀᴇᴘᴏ #ғɪʀsᴛ ᴀɴᴅ ʟᴀsᴛ ᴡᴀʀɴɪɴɢ ⚠️
-    DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
+    DEV_TXT = """<b><u>ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ ᴀʟʟ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ</b></u>
     
 » 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/infohubsupport_robot>ɪɴꜰᴏʜᴜʙ ꜱᴜᴘᴘᴏʀᴛ</a>
 
-• ❣️ <a href=https://t.me/the_universal_being>ᏰᎧᎧᏦᏇᎧᏒᎷ</a> """
+• ❣️ <a href=https://t.me/the_universal_being>ᏰᎧᎧᏦᏇᎧᏒᎷ</a>
+• ❣️ <a href=https://t.me/ridhiigandhii>Ridhi 🦋</a> """
     # ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
     SEND_METADATA = """
