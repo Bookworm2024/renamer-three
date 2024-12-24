@@ -201,7 +201,7 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @infohub_updates`
 """
     
     RKN_PROGRESS = """<b>\n
-╭━━━━❰RKN PROCESSING...❱━➣
+╭━━━━❰𝗜𝗙𝗥 𝗣𝗥𝗢𝗖𝗘𝗦𝗦𝗜𝗡𝗚 ❱━➣
 ┣⪼ 🗃️ ꜱɪᴢᴇ: {1} | {2}
 ┣⪼ ⏳️ ᴅᴏɴᴇ : {0}%
 ┣⪼ 🚀 ꜱᴩᴇᴇᴅ: {3}/s
