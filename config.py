@@ -81,36 +81,36 @@ class rkn(object):
 ├📕 Lɪʙʀᴀʀy : <a href=https://t.me/Bookslibraryofficial>Pages & Voices</a>
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org/>Python 3</a>
 ├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://www.mongodb.com/>Mongo DB</a>
-├📊 ᴠᴇʀsɪᴏɴ: <a href=https://t.me/infohub_updates>{}</a></b>     
+├📊 ᴠᴇʀsɪᴏɴ: <a href=https://t.me/infohub_updates>Version 1.0</a></b>     
 ╰───────────────⍟ """
 
     HELP_TXT = """
 <b>•></b> ᴛᴏ ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ, ꜱᴇɴᴅ /start
 
-✏️ <b><u>ʜᴏᴡ ᴛᴏ ʀᴇɴᴀᴍᴇ ᴀɴʏ ꜰɪʟᴇ?</u></b>
+✏️ <b><blockquote>ʜᴏᴡ ᴛᴏ ʀᴇɴᴀᴍᴇ ᴀɴʏ ꜰɪʟᴇ?</blockquote></b>
 
 <b>•></b> ꜱᴇɴᴅ ᴀɴʏ ꜰɪʟᴇ ᴀɴᴅ ᴛʏᴘᴇ ᴛʜᴇ ɴᴇᴡ ꜰɪʟᴇ ɴᴀᴍᴇ\n<b>•></b>ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ [ document, video, audio ]\n\n⚠️ᴘ.ꜱ. ᴛʜᴇ ꜰɪʟᴇ ᴄᴏɴᴠᴇʀꜱɪᴏɴ ꜱʏꜱᴛᴇᴍ (ꜰɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴏʀ ᴠɪᴅᴇᴏ ᴛᴏ ꜰɪʟᴇ) ᴍᴀʏ ɴᴏᴛ ᴡᴏʀᴋ 24x7 ᴀꜱ ɪᴛ ʜᴀꜱ ᴄᴇʀᴛᴀɪɴ ʀᴇꜱᴛʀɪᴄᴛɪᴏɴꜱ ꜱᴇᴛ ᴜᴘ ʙʏ ᴛᴇʟᴇɢʀᴀᴍ ɪᴛꜱᴇʟꜰ!.           
 
-ℹ️ ꜰᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ Qᴜᴇʀʏ, ᴀꜱꜱɪꜱᴛᴀɴᴄᴇ, ᴄᴏɴᴛᴀᴄᴛ - <a href=https://t.me/infohubsupport_robot>ɪɴꜰᴏʜᴜʙ ꜱᴜᴘᴘᴏʀᴛ</a>
+<blockquote>ℹ️ ꜰᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ Qᴜᴇʀʏ, ᴀꜱꜱɪꜱᴛᴀɴᴄᴇ, ᴄᴏɴᴛᴀᴄᴛ - <a href=https://t.me/infohubsupport_robot>ɪɴꜰᴏʜᴜʙ ꜱᴜᴘᴘᴏʀᴛ</a></blockquote>
 """
 
     UPGRADE= """
 ★ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ ᴀʀᴇ - 
 
-•⪼ 🏆 ᴘʀᴏ :
+•⪼ <blockquote><b>🏆 ᴘʀᴏ :</b>
 ᴅᴜʀᴀᴛɪᴏɴ - 1 month
 ᴘʀɪᴄᴇ - 90 INR
-Qᴜᴏᴛᴀ - 100 GB
+Qᴜᴏᴛᴀ - 100 GB</blockquote>
 
-•⪼ 💎 ᴜʟᴛʀᴀ-ᴘʀᴏ:
+•⪼ <blockquote><b>💎 ᴜʟᴛʀᴀ-ᴘʀᴏ :</b>
 ᴅᴜʀᴀᴛɪᴏɴ - 1 month
 ᴘʀɪᴄᴇ - 165 INR
-Qᴜᴏᴛᴀ - 1000 GB
+Qᴜᴏᴛᴀ - 1000 GB</blockquote>
 
-💸 9% ᴅɪꜱᴄᴏᴜɴᴛ ᴏɴ ᴀʟʟ ᴘʟᴀɴꜱ ꜰᴏʀ ꜰɪʀꜱᴛ ᴛɪᴍᴇʀꜱ.
+<i>💸 9% ᴅɪꜱᴄᴏᴜɴᴛ ᴏɴ ᴀʟʟ ᴘʟᴀɴꜱ ꜰᴏʀ ꜰɪʀꜱᴛ ᴛɪᴍᴇʀꜱ.</i>
     """
     THUMBNAIL = """
-🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ</u></b>
+🌌 <b><blockquote>Hᴏᴡ Tᴏ Sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ</blockquote></b>
 
 <b>•></b> ꜱᴇɴᴅ ᴀɴʏ ᴘɪᴄᴛᴜʀᴇ ᴛᴏ ꜱᴇᴛ ᴛʜᴇ ᴛʜᴜᴍʙɴᴀɪʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ.
 
@@ -118,7 +118,7 @@ Qᴜᴏᴛᴀ - 1000 GB
 <b>•></b> /view_thumb Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜʀʀᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
 """
     CAPTION= """
-📑 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ</u></b>
+📑 <b><blockquote>Hᴏᴡ Tᴏ Sᴇᴛ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ</<blockquote></b>
 
 <b>•></b> /set_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Sᴇᴛ ᴀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
 <b>•></b> /see_caption - Uꜱᴇ Tʜɪꜱ Cᴏᴍᴍᴀɴᴅ Tᴏ Vɪᴇᴡ Yᴏᴜʀ Cᴜꜱᴛᴏᴍ Cᴀᴩᴛɪᴏɴ
@@ -135,8 +135,8 @@ Exᴀᴍᴩʟᴇ-
 ⌚️ ʙᴏᴛ ᴜᴩᴛɪᴍᴇ: `{}`
 👭 ᴛᴏᴛᴀʟ ᴜsᴇʀꜱ: `{}`
 💸 ᴛᴏᴛᴀʟ ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs: `{}`
-֍ ᴜᴘʟᴏᴀᴅ: `{}`
-⊙ ᴅᴏᴡɴʟᴏᴀᴅ: `{}`
+֍ ᴛᴏᴛᴀʟ ᴜᴘʟᴏᴀᴅꜱ: `{}`
+⊙ ᴛᴏᴛᴀʟ ᴅᴏᴡɴʟᴏᴀᴅꜱ: `{}`
 """
     LIVE_STATUS = """
 ⚡ ʟɪᴠᴇ sᴇʀᴠᴇʀ sᴛᴀᴛᴜs ⚡
@@ -147,9 +147,9 @@ Exᴀᴍᴩʟᴇ-
 ᴛᴏᴛᴀʟ ᴅɪsᴋ: `{}`
 ᴜsᴇᴅ sᴘᴀᴄᴇ: `{} {}%`
 ғʀᴇᴇ sᴘᴀᴄᴇ: `{}`
-ᴜᴘʟᴏᴀᴅ: `{}`
-ᴅᴏᴡɴʟᴏᴀᴅ: `{}`
-V𝟹.𝟶.𝟶 [STABLE]
+ᴜᴘʟᴏᴀᴅꜱ: `{}`
+ᴅᴏᴡɴʟᴏᴀᴅꜱ: `{}`
+V1.𝟶 [STABLE]
 """
     DIGITAL_METADATA = """
 ❪ SET CUSTOM METADATA ❫
@@ -166,14 +166,14 @@ V𝟹.𝟶.𝟶 [STABLE]
     CUSTOM_FILE_NAME = """
 <u>🖋️ Custom File Name</u>
 
-you can pre-add a prefix and suffix along with your new filename
+you can pre-add a prefix or suffix along with your new filename
 
-➢ /set_prefix - To add a prefix along with your _filename.
-➢ /see_prefix - Tᴏ Sᴇᴇ Yᴏᴜʀ Pʀᴇғɪx !!
-➢ /del_prefix - Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Pʀᴇғɪx !!
-➢ /set_suffix - To add a suffix along with your filename_.
-➢ /see_suffix - Tᴏ Sᴇᴇ Yᴏᴜʀ Sᴜғғɪx !!
-➢ /del_suffix - Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Sᴜғғɪx !!
+➢ /set_prefix - ᴀᴅᴅ ᴀ ᴘʀᴇꜰɪx ᴀʟᴏɴɢ ᴡɪᴛʜ ʏᴏᴜʀ ꜰɪʟᴇɴᴀᴍᴇ !!
+➢ /see_prefix - Sᴇᴇ Yᴏᴜʀ Pʀᴇғɪx !!
+➢ /del_prefix - Dᴇʟᴇᴛᴇ Yᴏᴜʀ Pʀᴇғɪx !!
+➢ /set_suffix - ᴀᴅᴅ ᴀ ꜱᴜꜰꜰɪx ᴀʟᴏɴɢ ᴡɪᴛʜ ʏᴏᴜʀ ꜰɪʟᴇɴᴀᴍᴇ !!
+➢ /see_suffix - Sᴇᴇ Yᴏᴜʀ Sᴜғғɪx !!
+➢ /del_suffix - Dᴇʟᴇᴛᴇ Yᴏᴜʀ Sᴜғғɪx !!
 
 Exᴀᴍᴩʟᴇ:- `/set_suffix @infohub_updates`
 Exᴀᴍᴩʟᴇ:- `/set_prefix @infohub_updates`
@@ -185,9 +185,7 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @infohub_updates`
     DEV_TXT = """<b><u>ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ ᴀʟʟ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ</b></u>
     
 » 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/infohubsupport_robot>ɪɴꜰᴏʜᴜʙ ꜱᴜᴘᴘᴏʀᴛ</a>
-
-• ❣️ <a href=https://t.me/the_universal_being>ᏰᎧᎧᏦᏇᎧᏒᎷ</a>
-• ❣️ <a href=https://t.me/ridhiigandhii>Ridhi 🦋</a> """
+"""
     # ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
     SEND_METADATA = """
@@ -201,7 +199,7 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @infohub_updates`
 """
     
     RKN_PROGRESS = """<b>\n
-╭━━━━❰𝗜𝗙𝗥 𝗣𝗥𝗢𝗖𝗘𝗦𝗦𝗜𝗡𝗚 ❱━➣
+╭━━━━❰ 𝗜𝗙𝗥 𝗣𝗥𝗢𝗖𝗘𝗦𝗦𝗜𝗡𝗚 ❱━➣
 ┣⪼ 🗃️ ꜱɪᴢᴇ: {1} | {2}
 ┣⪼ ⏳️ ᴅᴏɴᴇ : {0}%
 ┣⪼ 🚀 ꜱᴩᴇᴇᴅ: {3}/s
